@@ -1,0 +1,102 @@
+
+/* General page style */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Main container */
+.container {
+    max-width: 550px;
+    margin: auto;
+    padding: 15px;
+    background-color: white;
+    border-radius: 12px;
+}
+
+
+/* Main title */
+h1 {
+    color: #1265cf;
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+
+/* Paragraph */
+p {
+    color: #555555;
+    font-size: 18px;
+    margin-top: 0;
+}
+
+/* Feature list */
+ul {
+    background-color: #f1f5f8;
+    padding: 20px 25px;
+    border-radius: 18px;
+    list-style: none;
+}
+
+/* List items */
+.features li {
+    font-size: 17px;
+    color: #444444;
+    margin-bottom: 12px;
+}
+
+/* Colored checkmarks */
+.features li::before {
+    content: "✓";
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.green::before {
+    background-color: #0b9a66;
+}
+
+.purple::before {
+    background-color: #7836b9;
+}
+
+.orange::before {
+    background-color: #ff9b00;
+}
+
+/* Button */
+button {
+    background-color: #1267df;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: crimson;
+}
+
+
+
+
+
+/* Top image */
+.banner {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 15px;
+}
